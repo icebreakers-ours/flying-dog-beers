@@ -24,7 +24,7 @@ master_id_map = pd.read_csv(DataFolder+"/master_id_map.csv")
 const_data=pd.read_pickle(DataFolder+"/const_data.pkl")
 table_data=pd.read_pickle(DataFolder+"/dashboard_table_data.pkl")
 unit_plot_data=pd.read_pickle(DataFolder+"/dashboard_unit_plot_data.pkl")
-df_all_runs=pd.read_pickle(DataFolder+"/df_all_runs_compressed.pkl")
+df_all_runs=pd.read_pickle(DataFolder+"/dummy.pkl")
 
 # Create global chart template
 mapbox_access_token = 'pk.eyJ1IjoiamFja2x1byIsImEiOiJjajNlcnh3MzEwMHZtMzNueGw3NWw5ZXF5In0.fk8k06T96Ml9CLGgKmk81w'
